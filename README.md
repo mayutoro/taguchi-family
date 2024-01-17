@@ -10,7 +10,8 @@ docker run --rm \
 
 ## Sail command shortcut
 ```
-# .profileにエイリアスを追加する。
-vi ~/.profile
+# ~/.bashrcにエイリアスを追加する。
+vi ~/.bashrc
+# 以下を末尾に追加
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 ```
